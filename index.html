@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Physics Learning Resources</title>
+<meta name="description" content="Interactive physics visualisations that run in the browser, built for learning atomic and quantum physics.">
+<style>
+  :root { --accent: #4f7cff; color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", system-ui, -apple-system, sans-serif; background: #0e1116; color: #e6e9ee; }
+  header { max-width: 1100px; margin: 0 auto; padding: 56px 24px 24px; }
+  h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 40px); }
+  header p { margin: 0; color: #9aa4b2; font-size: 17px; max-width: 720px; line-height: 1.5; }
+  .links { margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .links a { color: #e6e9ee; text-decoration: none; border: 1px solid #2a313c; padding: 8px 14px; border-radius: 8px; font-size: 14px; }
+  .links a:hover { border-color: var(--accent); }
+  main { max-width: 1100px; margin: 0 auto; padding: 12px 24px 56px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  .card { display: flex; flex-direction: column; background: #161b22; border: 1px solid #262d38; border-radius: 12px; overflow: hidden; color: inherit; text-decoration: none; transition: transform .15s, border-color .15s; }
+  .card:hover { transform: translateY(-3px); border-color: var(--accent); }
+  .card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; background: #fff; border-bottom: 1px solid #262d38; }
+  .body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .body h2 { margin: 0; font-size: 18px; }
+  .body p { margin: 0; color: #9aa4b2; font-size: 14px; line-height: 1.5; flex: 1; }
+  .body span { color: var(--accent); font-size: 14px; font-weight: 600; }
+  footer { text-align: center; color: #6b7480; font-size: 13px; padding: 0 24px 32px; }
+  footer a { color: #9aa4b2; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Physics Learning Resources</h1>
+  <p>Interactive physics visualisations that run in the browser, built for learning atomic and quantum physics.</p>
+  <div class="links"><a href="https://github.com/MeshanNawod/physics-learning-resources">Source on GitHub</a><a href="https://meshannawod.github.io/">Meshan Nawod · Portfolio</a></div>
+</header>
+<main>
+    <a class="card" href="hydrogen_atom_fixed.html">
+      <img src="docs/screenshot-hydrogen.png" alt="Hydrogen atom orbital visualizer screenshot" loading="lazy">
+      <div class="body"><h2>Hydrogen atom orbital visualizer</h2><p>Electron clouds, angular momentum and radial density for hydrogen orbitals, with adjustable quantum numbers.</p><span>Open →</span></div>
+    </a>
+    <a class="card" href="quantum_lab.html">
+      <img src="docs/screenshot-quantum-lab.png" alt="Quantum lab screenshot" loading="lazy">
+      <div class="body"><h2>Quantum lab</h2><p>Hydrogen atom, tunnelling, particle in a box, harmonic oscillator, spin and uncertainty in one lab.</p><span>Open →</span></div>
+    </a>
+</main>
+<footer>Made by <a href="https://github.com/MeshanNawod">Meshan Nawod</a></footer>
+</body>
+</html>

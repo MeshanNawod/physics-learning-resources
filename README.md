@@ -1,48 +1,39 @@
-# Advanced Physics: Analytical Derivations & Computational Models
+<div align="center">
 
-A comprehensive repository dedicated to theoretical problem-solving, computational simulations, and data analysis tools covering classical mechanics, statistical physics, electromagnetism, and advanced quantum systems.
+# ⚛️ Physics Learning Resources
 
----
+Interactive atomic and quantum physics visualisations that run in the browser. No install, no build step.
 
-## 🚀 Key Focus Areas
+[![Live demo](https://img.shields.io/badge/Live_demo-Open_in_browser-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://meshannawod.github.io/physics-learning-resources/)
 
-* **Classical & Statistical Mechanics:** Simulations of phase space trajectories, partition functions, and Maxwell-Boltzmann statistical distributions.
-* **Electrodynamics & Wave Propagation:** Computational modeling of electromagnetic fields, wave equation solutions, and boundary value problems.
-* **Experimental Data Analysis:** Automated curve fitting, linear regression models, and error propagation analysis using scientific computing libraries.
-* **Mathematical Methods in Physics:** Numerical solvers for ordinary and partial differential equations governing physical systems.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 
----
+<img src="docs/screenshot-quantum-lab.png" alt="Quantum lab showing a hydrogen electron cloud" width="860">
 
-## 🛠️ Tech Stack & Tools
+</div>
 
-* **Primary Language:** Python, C++
-* **Scientific Computing:** NumPy, SciPy, SymPy, OriginPro automation scripts
-* **Data Visualization:** Matplotlib, Seaborn
-* **Environment:** Jupyter Notebooks, Linux shell utilities
+## Simulations
 
----
+| | Simulation | What it shows |
+|---|---|---|
+| <img src="docs/screenshot-hydrogen.png" width="260" alt="Hydrogen atom visualizer"> | **[Hydrogen atom orbital visualizer](https://meshannawod.github.io/physics-learning-resources/hydrogen_atom_fixed.html)** | Electron clouds for chosen quantum numbers (n, l, m), angular momentum, radial probability density and spin |
+| <img src="docs/screenshot-quantum-lab.png" width="260" alt="Quantum lab"> | **[Quantum lab](https://meshannawod.github.io/physics-learning-resources/quantum_lab.html)** | Hydrogen atom, tunnelling, particle in a box, harmonic oscillator, spin ½ and the uncertainty principle in one tabbed lab |
 
-## 📂 Repository Structure
+## Run locally
+
+Download the repository and open either `.html` file in a modern browser (Chrome, Edge or Firefox). Three.js loads from a CDN, so you need an internet connection the first time.
+
+## Files
 
 ```text
-├── mechanics/           # Classical mechanics simulations and Lagrangian/Hamiltonian solvers
-├── thermodynamics/      # Statistical physics and thermal distribution scripts
-├── electromagnetism/    # Field mapping and wave propagation models
-├── data-analysis/       # Experimental error analysis and curve fitting utilities
-└── docs/                # Theoretical notes, derivations, and lab report resources
+index.html                 landing page (GitHub Pages home)
+hydrogen_atom_fixed.html   hydrogen orbital visualizer
+quantum_lab.html           multi-topic quantum lab
+docs/                      screenshots
+```
 
-⚙️ Getting Started
-Prerequisites
-Clone the repository and install the required physics and mathematics computing packages:
-git clone [https://github.com/MeshanNawod/Physics.git](https://github.com/MeshanNawod/Physics.git)
-cd Physics
-pip install numpy scipy matplotlib sympy
+See also **[quantum-mechanics-learning-resources](https://github.com/MeshanNawod/quantum-mechanics-learning-resources)** for the wave superposition lab.
 
-Running Simulations
-Navigate to the specific submodule directory (e.g., mechanics/ or thermodynamics/) and execute the Python scripts or open the corresponding Jupyter notebooks to review models and generate plots.
-👥 Author
- * Meshan Nawod (meshannawodme@gmail.com)
-   Faculty of Science, University of Peradeniya
-📄 License
-Maintained for academic coursework, research, and scientific exploration.
+## Author
 
+Made by **Meshan Nawod**, Physics undergraduate at the University of Peradeniya · [Portfolio](https://meshannawod.github.io/) · [GitHub](https://github.com/MeshanNawod)
